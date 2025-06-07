@@ -2068,9 +2068,8 @@ input, select, textarea {
 	#header {
 		padding: 5em 0 4em 0;
 		text-align: center;
-
 		background: transparent url("images/scallop.png");
-
+		mix-blend-mode: multiply;
 		position: top center;
 		background-repeat: repeat-x;
 	}
@@ -2190,7 +2189,7 @@ input, select, textarea {
 		#banner header {
 
 			background: transparent;
-			background-blend-mode: multiply;
+			mix-blend-mode: multiply;
 			background-image: url("images/bottom.png");
 			background-position: center center;
 			background-size: contain;
